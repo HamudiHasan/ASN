@@ -1,0 +1,13 @@
+Head
+<link href="<?php echo $baseurl; ?>assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+Footer
+ <!-- Page level plugins -->
+    <script src="<?php echo $baseurl; ?>assets/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="<?php echo $baseurl; ?>assets/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="<?php echo $baseurl; ?>assets/js/demo/datatables-demo.js"></script>
+    
+    
+     <table class="table table-bordered table-striped" id="dataTable" width="100%" cellspacing="0">
